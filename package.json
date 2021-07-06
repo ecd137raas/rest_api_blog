@@ -1,0 +1,23 @@
+{
+  "name": "rest_api_blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/server",
+    "test": "jest --env node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jest": "^27.0.6",
+    "pg-promise": "^10.10.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
